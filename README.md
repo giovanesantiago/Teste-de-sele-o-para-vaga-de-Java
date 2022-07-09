@@ -33,6 +33,7 @@
         4. CEPs de estados iguais tem 75% de desconto no valor do frete e entrega prevista de 3 dias
         5. CEPs de estados diferentes não deve ser aplicado o desconto no valor do frete e entrega prevista de 10 dias
         6. O valor do frete é cobrado pelo peso da encomenda, o valor para cada KG é R$1,00
+        7. Endpoint pode ser público Response/Output deve possuir: “vlTotalFrete” e “dataPrevistaEntrega”, “cepOrigem” e “cepDestino” Deve ser persistido no banco os valores da cotação os valores consultados: “peso”, “cepOrigem”, “cepDestino”, “nomeDestinatario”, “vlTotalFrete”, “dataPrevistaEntrega” e “dataConsulta”
     - ### Definição da tecnologia
         1. Java (Liguagem)
         2. Mysql (Banco de Dados)
